@@ -18,7 +18,6 @@ namespace EmailOutlook
                 Program n = new Program();
                 StringBuilder mailbody = new StringBuilder();
                 string Month = DateTime.Now.ToString("MMM");
-                //string Day = DateTime.Now.ToString("dd");
                 string Day0 = DateTime.Today.ToString("d yyyy");
                 int indx = Day0.IndexOf(" ");
                 string Dayz = Day0.Substring(0, indx);
